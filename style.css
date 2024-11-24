@@ -1,0 +1,466 @@
+body{
+	margin:0 auto;
+	background-color: #F1EFE3;
+}
+.box{
+	width:1350px;
+	font-family: garamond;
+	height:4300px;
+	margin:0 auto;
+	background: url(background.jpg) no-repeat ;
+	background-size: cover;
+}
+.logo{
+	width: 40px;
+	height: auto;
+	padding: 10px;
+	margin-left:30px;
+	margin-top:20px;
+	float:left;
+}
+.body2{
+	margin:0 auto;
+	background: url(starry.jpg) no-repeat ;
+	background-size: cover;
+}
+.body3{
+	margin:0 auto;
+	background: url(monet.jpg) no-repeat ;
+	background-size: cover;
+}
+.body4{
+	margin:0 auto;
+	background: url(dali.jpg) no-repeat ;
+	background-size: cover;
+}
+.body5{
+	margin:0 auto;
+	background: url(landscape.jpg) no-repeat ;
+	background-size: cover;
+}
+.body6{
+	margin:0 auto;
+	background: url(klimt.jpg) no-repeat ;
+	background-size: cover;
+}
+.body7{
+	margin:0 auto;
+	background: url(magritte-mural.jpg) no-repeat ;
+	background-size: cover;
+}
+.body8{
+	margin:0 auto;
+	background: url(fridabg.jpg) no-repeat ;
+	background-size: cover;
+}
+.body9{
+	margin:0 auto;
+	background: url(wall.jpg) no-repeat ;
+	background-size: cover;
+	background-attachment:fixed;
+}
+/*meniu prima pagina*/
+.navbar{
+	height: 90px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.3);
+}
+.navbar ul{
+	float: right;
+	margin: 25px 70px;
+	
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 45px;
+}
+.navbar ul li a{
+	color: #DCDDDC;
+	font-size: 27px;
+	text-decoration:none;
+	font-family: garamond;
+	padding: 10px;
+}
+.navbar li a:hover
+{
+	font-size:27px;	
+    color:white;
+    text-decoration:none;
+    background-color: rgba(146, 191, 162, 0.4);
+    border-radius:5px;
+}
+/* meniu*/
+.sidenav {
+  height: 100%;
+  float:left;
+  width: 160px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.24);
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: garamond;
+  font-size: 23px;
+  color: #818181;
+  display: block;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+/*titlu*/
+.heading{
+	font-size:70px;
+	text-align: center;
+	padding:170px;
+	font-family: garamond;
+	margin:50px;
+	color: white;
+}
+/*buton*/
+.button {
+  background-color: #86B394;
+  border: none;
+  color: white;
+  font-family: garamond;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 40px 70px;
+  cursor: pointer;
+  border-radius:5px;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgba(146, 191, 162, 0.9);
+}
+/*prima pagina*/
+.box1{
+	float:left;
+	padding:20px;
+	margin-left:30px;
+	width:650px;
+	text-align:center;
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	font-size:20px;
+	font-family: garamond;
+	margin-top:175px;
+}
+.box2{
+	float:right;
+	color: white;
+	font-size:20px;
+	background-color: rgba(0,0,0,0.4);
+	text-align:center;
+	width:650px;
+	padding:20px;
+	font-family: garamond;
+	margin-right:30px;
+	margin-top:175px;
+}
+.box3{
+	float:left;
+	width:650px;
+	padding:20px;
+	text-align:center;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	font-size:20px;
+	font-family: garamond;
+	margin-left:30px;
+	margin-top:175px;
+}
+.box4{
+	text-align:center;
+	padding:10px;
+	font-size:30px;
+	margin-right:20px;
+	margin-top:680px;
+	font-family: garamond;
+	color:white;
+	background-color: rgb(0,0,0,0.3);
+	height: 140px;
+}
+.imagine1{
+	margin:50px;
+	margin-top:40px;
+	width:500px;
+	float:right;
+	border-radius:6px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4);
+}
+.imagine2{
+	margin:50px;
+	margin-top:30px;
+	width:500px;
+	float:left;
+	border-radius:6px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4);
+}
+.imagine3{
+	margin:50px;
+	margin-top:30px;
+	width:500px;
+	float:right;
+	border-radius:6px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4);
+}
+
+.continut{
+	float:right;
+	width:1030px;
+	font-family: garamond;
+    margin-top:20px;
+	margin-right:20px;
+}
+.text{
+	background-color:#F1EFE3;
+	font-family: garamond;
+	
+}
+.parallax1 {
+  background-image: url("van gogh.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  background-image: url("picasso.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+  background-image: url("frida.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*pictura*/
+.img1{
+	float:right;
+	margin:28px;
+	margin-right:50px;
+}
+.buton1 {
+  background-color: rgba(0,0,0,0.6);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-family: garamond;
+  display: inline-block;
+  font-size: 15px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius:5px;
+}
+.buton1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgba(0,0,0,0.8);
+}
+/*artisti*/
+.container{
+	width:1000px;
+	height:398px;
+	float:left;
+	font-family: garamond;
+	padding:10px;
+	background-color: rgb(255, 255, 255, 0.8);
+	margin-top:70px;
+	margin-right:80px;
+	margin-left:110px;
+	border-radius:8px;
+}
+/*arhitectura*/
+.parallax4 {
+  background-image: url("dh.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax5 {
+  background-image: url("oph.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax6 {
+  background-image: url("dubai.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgarh{
+	float:right;
+	width:610px;
+	padding:10px;
+	margin-right:60px;
+	margin-bottom:40px;
+	margin-top: 20px;
+}
+.caracteristici{
+	float:left;
+	width:30%;
+}
+/* navigation bars */
+.nav a {
+  position: absolute;
+  left: -160px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 180px; 
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  position:fixed;
+  border-radius: 0 5px 5px 0;
+}
+.nav a:hover {
+  left: 0; 
+}
+
+#Frida {
+  top: 80px;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+#Magritte {
+  top: 140px;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+#Klimt {
+  top: 200px;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+#Monet {
+  top: 260px;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+#Picasso {
+  top: 320px;
+  background-color:rgb(0, 0, 0, 0.5);
+}
+#vangogh {
+  top: 380px;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+#Dali {
+  top: 440px;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.buton {
+  background-color: rgb(255,255,255,0.7);
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: garamond;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 25px 25px;
+  cursor: pointer;
+  border-radius:5px;
+}
+.buton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(255,255,255, 0.9);
+}
+/*sculptura*/
+.parallax7 {
+  background-image: url("sc1.jpg");
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax8 {
+  background-image: url("brancusi.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax9 {
+  background-image: url("pb.jpg");
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*galerie*/
+.galerie{
+	margin:0 auto;
+	width:1170px;
+	margin-top:10px;
+	margin-left:50px;
+}
+.example-imagine{
+	width:200px;
+	height:auto;
+	float:center;
+	padding:10px;
+	margin:10px;
+	margin-right: 30px;
+	border-radius:10px;
+}
+td
+{
+padding:5px;
+}
+/*butoane prev/next */
+.btn a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 9px 17px;
+  margin-top:10px;
+}
+
+.btn a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  font-size:20px;
+  margin-left: 20px;
+  float:left;
+  border-radius: 50%;
+}
+
+.next {
+  background-color: #f1f1f1;
+  color: black;
+  font-size:20px;
+  margin-right:20px;
+  float:right;
+  border-radius: 50%;
+}
